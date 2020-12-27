@@ -867,7 +867,18 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
-	overrides: ["StorageManager"],
+}
+
+android_app_import {
+	name: "TurboAdapter",
+	owner: "gapps",
+	apk: "proprietary/system_ext/priv-app/TurboAdapter/TurboAdapter.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: true,
+	},
+	privileged: true,
+	system_ext_specific: true,
 }
 
 android_app_import {

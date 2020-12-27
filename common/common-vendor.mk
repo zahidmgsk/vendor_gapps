@@ -191,5 +191,6 @@ PRODUCT_PACKAGES += \
     PixelSetupWizard \
     RilConfigService \
     StorageManagerGoogle \
+    TurboAdapter \
     WallpaperPickerGoogleRelease \
     com.google.android.dialer.support
