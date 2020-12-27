@@ -182,6 +182,7 @@ PRODUCT_PACKAGES += \
     TurboPrebuilt \
     Velvet \
     WellbeingPrebuilt \
+    Flipendo \
     CarrierSetup \
     GoogleFeedback \
     GoogleOneTimeInitializer \
